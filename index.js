@@ -19,6 +19,9 @@ var resources = {
   subscription: require('./resources/subscription'),
   subaccount: require('./resources/subaccount'),
   settlements: require('./resources/settlements'),
+  transferRecipient: require('./resources/transfer_recipient'),
+  transfer: require('./resources/transfer'),
+  transferControl: require('./resources/transfer_control'),
   misc: require('./resources/misc')
 }
 
